@@ -1,0 +1,19 @@
+{
+  "name": "ttv-sudi-bot",
+  "version": "1.0.0",
+  "description": "Sudi_Bot on twitch.tv",
+  "main": "bot.mjs",
+  "scripts": {
+    "start": "node bot.mjs"
+  },
+  "author": "Jonathan Sudiaman",
+  "license": "ISC",
+  "dependencies": {
+    "@twurple/auth": "^5.2.7",
+    "@twurple/chat": "^5.2.7",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}
